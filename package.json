@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "start": "npx http-server",
     "test": "grunt unit_and_integration_tests"
   }
 }
