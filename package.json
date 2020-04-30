@@ -4,7 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "npx http-server",
+    "dev":   "npx http-server webapp -a 127.0.0.1 -c-1 -d false -o /",
+    "build": "npx ui5 build",
+    "start": "npx http-server dist -a 127.0.0.1 -d false -o /",
     "test": "grunt unit_and_integration_tests"
   }
 }
